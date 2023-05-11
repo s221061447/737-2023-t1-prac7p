@@ -26,7 +26,7 @@ spec:
     spec:
       containers:
         - name: app
-          image: pauljose97/737-2023-t1-prac5p-app
+          image: pauljose97/737-2023-t1-prac5p-app:v2
           ports:
             - containerPort: 3030
           imagePullPolicy: Always
