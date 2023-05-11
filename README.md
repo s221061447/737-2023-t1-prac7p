@@ -55,3 +55,8 @@ The available endpoints are (All are GET requests):
 ```
 ***
 The server runs on port 3030 and can be run by using the command "npm run start".
+
+To run using kubernetes simply run the following command:
+```bash
+kubectl apply -f ./kube/
+```
